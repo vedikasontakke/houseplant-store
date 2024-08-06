@@ -1,0 +1,41 @@
+/* LandingPage.css */
+
+.landing-page {
+    background-image: url('../assets/bg.jpeg'); /* Correct path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .landing-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .landing-page button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .landing-page button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

@@ -1,0 +1,61 @@
+/* ShoppingCart.css */
+
+.shopping-cart {
+    padding: 20px;
+    max-width: 800px; /* Centering the content */
+    margin: auto; /* Centering */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for the container */
+    background-color: #f9f9f9; /* Light background */
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Green color for the title */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px;
+    margin: 10px 5px; /* Space around buttons */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd; /* Divider between items */
+    padding: 10px 0; /* Space around items */
+  }
+  
+  .cart-item img {
+    max-width: 100px; /* Fixed width for images */
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+    margin-right: 15px; /* Space between image and text */
+  }
+  
+  .cart-item p {
+    margin: 0 10px; /* Space around text */
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-controls button {
+    margin: 0 5px; /* Space around quantity buttons */
+  }
+  
